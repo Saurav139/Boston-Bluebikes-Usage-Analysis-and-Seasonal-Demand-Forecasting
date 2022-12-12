@@ -9,8 +9,11 @@ In this project, we analyze the usage patterns of the Boston Bluebikes program t
 We made use of the publicly available Boston Bluebikes dataset across the years 2019 - 2022 [3]. The data is in CSV format, consisting of one CSV for each month of the year and 15 columns each. The most significant columns used in our analysis are:
 
 Start Time: Timestamp of when the bike ride began (eg: 1/1/2019  10:09:47 AM)
+
 Trip Duration: Duration of ride in seconds (eg: 371)
+
 User Type: Is the user a regular customer or a subscriber
+
 Start/End Station Latitude and Start/End Station Longitude: Coordinates of the dock stations from where the ride began and ended (eg: 42.358100 and -71.093198)
               
 We have used ARIMA and LSTM models for seasonal demand forecasting. LSTM was able to give better predictions of  the total rides used from Northeastern University stations in each season.We observed that the fall season had the highest demand, followed by summer, spring and winter. 
