@@ -1,1 +1,3 @@
 # Boston-Bluebikes-Usage-Analysis-and-Seasonal-Demand-Forecasting
+
+In this project, we analyze the usage patterns of the Boston Bluebikes program to help understand the seasonal and time period effect on the utilization of the bicycles. We then focus on describing the bike activity near the Northeastern University campus in order to visualize the demand during school terms. Furthermore, we provide a forecast of the demand of Bluebikes around Northeastern for every academic season, allowing for the ability to plan ahead and have a streamlined organization system in place for busier periods around the campus. 
